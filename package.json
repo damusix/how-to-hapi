@@ -1,0 +1,29 @@
+{
+  "name": "how-to-hapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/basic": "^6.0.0",
+    "@hapi/catbox-redis": "^6.0.2",
+    "@hapi/glue": "^8.0.0",
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/inert": "^6.0.4",
+    "@hapi/jwt": "^2.1.0",
+    "@hapi/vision": "^6.1.0",
+    "@hapi/yar": "^10.1.1",
+    "joi": "^17.4.2"
+  },
+  "scripts": {
+    "hapi-pal": "nodemon hapi-pal",
+    "plugins": "nodemon plugins.js",
+    "routes:advanced": "nodemon routes-advanced.js",
+    "routes:simple": "nodemon routes-simple.js",
+    "auth": "nodemon with-auth.js",
+    "auth:custom": "nodemon with-custom-auth.js",
+    "cache": "nodemon with-cache.js",
+    "extensions": "nodemon with-extensions.js",
+    "views": "nodemon with-views.js",
+    "websockets": "nodemon with-websockets.js"
+  }
+}
